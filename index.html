@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регулируемые шкалы</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="space-left">
+            <div class="square">
+                
+            </div>
+        </div>
+        <div class="scales-wrapper">
+            <span class="title-scales">УПРАВЛЕНИЕ ЗНАЧЕНИЯМИ</span>
+            <span class="scale-title">Количество молекул: 100</span>
+            <div class="scale-container">
+                <button class="decrease">-</button>
+                <div class="scale">
+                    <div class="scale-inner" id="scale1"></div>
+                </div>
+                <button class="increase">+</button>
+            </div>
+            <span class="scale-title">Температура: 450K</span>
+            <div class="scale-container" style="margin-bottom: 1em;">
+                <button class="decrease">-</button>
+                <div class="scale">
+                    <div class="scale-inner" id="scale2"></div>
+                </div>
+                <button class="increase">+</button>
+            </div>
+            <span class="scale-title">Объем газа: 14нм x 14нм</span>
+            <span class="explain"><em>* 1 высота окна страницы ≈ 14нм<br>Измените размер окна для изменения объема<br>Для удобного тестирования можно нажать ПКМ и выбрать "Исследовать"</em></span>
+            <span class="scale-title">Средняя кинетическая энергия молекул: <br style="font-size: 1.3em;"><span class = 'calcul'>E<sub>к</sub> = 3/2×k×T = <span class = 'calc'></span></span></span>
+            <span class="scale-title" style="margin-top: 0.5em;">Давление газа: <br style="font-size: 1.3em;"><span class='calcul'>p = 2/3×n×E<sub>к</sub> = 2/3 × (N/V) × E<sub>к</sub> = <span class = 'calc'></span></span></span>
+            <span class="end">Творческая работа по физике учеников 9В класса: <br>Сатарова Руслана, Цой Юрия, Афанасьева Мартина, Пазиловой Шодии, Гаффаровой Райхоны</span>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
+
